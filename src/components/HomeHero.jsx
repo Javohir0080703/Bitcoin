@@ -78,6 +78,7 @@ const HomeHero = ({ language }) => {
                         onInit={(ev) => {
                             set_swiper(ev);
                         }}
+                        // onAnimationEnd={true}
                         coverflowEffect={{
                             rotate: 1,
                             stretch: -60,
@@ -90,7 +91,7 @@ const HomeHero = ({ language }) => {
                         modules={[EffectCoverflow, Navigation]}
                         className="mySwiper grid gap-x-5 relative"
                     >
-                        <div className='flex items-center absolute  bottom-[-10px] right-[450px] '>
+                        <div className='flex items-center absolute z-40  bottom-[-10px] right-[450px] '>
                             <button onClick={prevSlide}>
                                 <img src={prev} alt="prev" />
                             </button>
@@ -103,7 +104,7 @@ const HomeHero = ({ language }) => {
                                 if (e.lang === language) {
 
                                     return (
-                                        <SwiperSlide className='bg-#151822 w-full max-w-[353px] rounded-lg pl-[30px] pt-[30px] pr-[50px] relative z-20' key={index}>
+                                        <SwiperSlide className='bg-#151822 z-0 w-full max-w-[353px] rounded-lg pl-[30px] pt-[30px] pr-[50px] relative z-20' key={index}>
                                             <h3 className='font-semibold text-lg leading-8 mb-0.5 text-white'>{e.title}</h3>
                                             <p className='font-bold text-[32px] leading-9 mb-4 text-white'>{e.text}</p>
                                             <p className='text-base leading-6 mb-8 text-white'>{e.textb}</p>

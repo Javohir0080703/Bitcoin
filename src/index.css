@@ -9,6 +9,10 @@
     user-select: none;
 }
 
+body {
+    background: #1B2944;
+}
+
 .containerb {
     width: 100%;
     max-width: 1140px;
@@ -20,12 +24,6 @@
 
 .title-gradient {
     background: linear-gradient(to right, #fff, #B0FAFF00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.title-gradient {
-    background: linear-gradient(to right, #fff , #B0FAFF00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -52,7 +50,7 @@
 
 .home-main {
     width: 100%;
-    /* background-repeat: no-repeat; */ 
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: 100%;
     background-image: url(../src/img/header-main.png);
@@ -72,4 +70,3 @@
 .swiper-button-prev {
     display: none;
 }
-

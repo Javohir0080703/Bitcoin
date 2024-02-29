@@ -57,10 +57,10 @@ const Supports = ({ language, setLanguage }) => {
             </div>
            <div className='absolute top-[96px] left-0'>
            {
-                langs.map((e) => {
+                langs.map((e, index) => {
                     if (e.lan === language) {
                         return (
-                           <div>
+                           <div key={index}>
                             <span className='font-bold text-[180px] leading-[196px] bg-gradient-to-r text-transparent bg-clip-text from-[#FFFFFF]/[5%] to-[#B0FAFF][0%] -z-10'>{e.bgText}</span>
                            </div>
                         )
