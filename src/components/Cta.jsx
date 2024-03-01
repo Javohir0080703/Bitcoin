@@ -68,7 +68,7 @@ const Cta = ({ language, setLanguage }) => {
                                         <h1 className='font-bold text-[42px] leading-10 title-gradient mb-4 z-50'>{e.title}</h1>
                                         <p className='text-white font-semibold text-lg leading-8 w-full max-w-[500px] mb-8'>{e.text}</p>
                                         <form onSubmit={handleSubmit} className='w-full max-w-[661px] items-center justify-between flex bg-white/[28%] rounded-[14px] pr-3'>
-                                            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder={e.inputplaceholder} className='w-full focus:outline-none text-base bg-transparent leading-6 py-5 pl-8 ' />
+                                            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder={e.inputplaceholder} className='w-full focus:outline-none text-base text-white bg-transparent leading-6 py-5 pl-8 ' />
                                             <button className='text-white py-3.5 px-8 bg-#279D88 rounded-[66px]'>{e.button}</button>
                                         </form>
                                     </div>
