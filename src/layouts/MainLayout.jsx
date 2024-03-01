@@ -10,7 +10,7 @@ const MainLayout = ({language,setLanguage}) => {
       <main className='grow'>
         <Outlet />
       </main>
-      <Footer />
+      <Footer language={language}  setLanguage={setLanguage} />
     </div>
   )
 }

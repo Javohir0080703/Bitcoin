@@ -57,7 +57,7 @@ const Cta = ({ language, setLanguage }) => {
 
 
     return (
-        <section className='py-10 bg-#151822'>
+        <section className='py-10 bg-#0D111B'>
             <div className='containerb'>
                 <div className='pt-[75px] pl-[54px] pb-[76px] w-full max-w-[1140px] home-main rounded-[28px]'>
                     {

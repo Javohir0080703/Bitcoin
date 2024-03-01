@@ -22,7 +22,7 @@ const HomeReady = ({ language, setLanguage }) => {
     }
   ]
   return (
-    <section className='pt-32  bg-#151822 z-50 relative'>
+    <section className='pt-32  bg-#0D111B z-50 relative'>
       <div className='containerb'>
         <div>
           {
